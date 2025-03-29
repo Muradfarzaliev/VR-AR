@@ -1,0 +1,221 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+
+body {
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: linear-gradient(180deg, rgba(0, 117, 136, 1) 0%, rgba(6, 73, 86, 1) 50%, rgba(12, 30, 36, 1) 100%);
+}
+
+hr {
+    color: #A75418;
+    background: #A75418;
+    height: 2px;
+}
+
+
+
+/* стили для шапки сайта(банер с логотипом и наигационно панелью) */
+
+.baner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.baner img {
+    width: 250px;
+    height: auto;
+}
+
+.baner h1 {
+    color: #A75418;
+    font-size: 35px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.nav .nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0;
+}
+
+.nav .nav-bar li {
+    list-style: none;
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 50px;
+    padding: 5px;
+    width: 15%;
+    text-align: center;
+}
+
+.nav .nav-bar li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.nav .nav-bar li a:hover {
+    color: #A75418;
+}
+
+.nav .nav-bar li:nth-child(3) a {
+    color: #A75418;
+}
+
+
+
+/* стили для основного контента страницы */
+
+.start {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.start p {
+    font-size: 18px;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.start .hr-img {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.start .hr-img img {
+    width: 35%;
+    margin-bottom: 20px;
+}
+
+.section {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section .beginning {
+    margin-bottom: 30px;
+}
+
+.section .beginning h2 {
+    font-size: 20px;
+    border-radius: 50px;
+    color: #A75418;
+    background: rgba(255, 255, 255, 0.18);
+    display: inline;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.section .card {
+    margin: 0 auto;
+    width: 75%;
+    margin-bottom: 40px;
+}
+
+.section .card h2 {
+    font-size: 20px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.18);
+    display: inline;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.section .card p{
+    font-size: 18px;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.section img{
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+.conclusion{
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.conclusion h2{
+    font-size: 20px;
+    border-radius: 50px;
+    color: #A75418;
+    background: rgba(255, 255, 255, 0.18);
+    display: inline;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #000;
+    margin-bottom: 15px;
+}
+
+.conclusion p{
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 5px;
+    margin: 15px auto;
+}
+
+/* стили для подвала сайта */
+
+.f-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-content h3 {
+    font-size: 16px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.f-content .fio {
+    margin-left: 15px;
+}
+
+.f-content .messages {
+    margin-top: 30px;
+}
+
+.f-content .messages img {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.f-content .copirate {
+    margin-right: 15px;
+}
+
+.f-content .copirate {
+    text-align: center;
+}
+
+.f-content .copirate img {
+    width: 100px;
+}
